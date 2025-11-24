@@ -1,61 +1,83 @@
-Spam Email Classification — Logistic Regression
+Machine Learning & AI Notebooks 
 
-Author: Deepeck (aka Mr Cool)
-Short bio: I enjoy listening to music, drawing, and dancing. This repository contains a compact, end-to-end Spam Email Classification project using TF-IDF features and Logistic Regression as a baseline model.
+Collection  by Deepeck
 
-Overview
+This repository contains a curated collection of Jupyter notebooks developed using Google Colab. The notebooks cover fundamental AI concepts, machine learning workflows, data handling using pandas, classification projects using Logistic Regression, and a complete mini-project on spam email detection using TF-IDF.
 
-This project demonstrates a standard NLP classification pipeline for detecting spam emails:
+These notebooks are ideal for beginners, intermediate learners, and anyone looking for practical implementations of ML algorithms.
 
-Data loading and cleaning
+Repository Contents
+1. AI.ipynb
 
-Text preprocessing (tokenization, stopwords, optional lemmatization/stemming)
+Last updated: last week
+This notebook covers foundational Artificial Intelligence concepts, including:
 
-Feature extraction with TfidfVectorizer
+Basic operations
 
-Model training using Logistic Regression
+AI workflow
 
-Evaluation with classification metrics (precision, recall, F1, support), confusion matrix, and ROC/PR analysis
+Introduction to ML models
 
-Use this repository as a baseline for experimentation (try different vectorizers, models, thresholds, or class-imbalance strategies).
+Simple implementations using Python
+A broad starting point for understanding how AI systems are structured.
 
-Key Features
+2. AI_using_pandas_library.ipynb
 
-TF-IDF text vectorization (configurable ngram_range, min_df, max_df)
+Last updated: last week
+Focused on data handling using the pandas library:
 
-Logistic Regression baseline with probability thresholding
+Data loading, cleaning, filtering
 
-Standard evaluation: classification report, confusion matrix, accuracy, ROC AUC, precision-recall curve
+Handling missing values
 
-Simple, reproducible scripts for training and inference
+Basic EDA (Exploratory Data Analysis)
 
-Requirements
+Data transformation and preprocessing
+Useful for understanding how to prepare datasets for ML.
 
-Python 3.8+
+3. Machinelearning.ipynb
 
-pandas
+Last updated: last week
+A general-purpose machine learning notebook including:
 
-numpy
+Train-test split
 
-scikit-learn
+Feature engineering basics
 
-matplotlib (optional, for plots)
+Model training (Logistic Regression, Decision Trees, Random Forest, etc.)
 
-Install dependencies:
+Model evaluation using accuracy, precision, recall, F1
+Provides hands-on learning for standard ML pipelines.
 
-python -m pip install pandas numpy scikit-learn matplotlib
+4. Project_spam_Email.ipynb
 
-Project Structure (suggested)
-README.md
-data/
-  └─ spam.csv                # (expected: columns: text,label)
-notebooks/
-  └─ exploration.ipynb
-src/
-  ├─ preprocess.py
-  ├─ features.py
-  ├─ train.py
-  └─ evaluate.py
-models/
-  └─ logistic_tfidf.pkl
-requirements.txt
+Last updated: 11 minutes ago
+A complete mini-project on Spam Email Classification using TF-IDF + Logistic Regression.
+Includes:
+
+NLP preprocessing (tokenization, stopwords, stemming/lemmatization)
+
+Feature extraction using TfidfVectorizer
+
+Logistic Regression model training
+
+Evaluation using classification report and confusion matrix
+
+Explanation of TF-IDF, precision, recall, and F1-score
+A practical project demonstrating real-world email/spam filtering techniques.
+
+5. predicting_disease_logistic.ipynb
+
+Last updated: last week
+Disease prediction project using Logistic Regression:
+
+Processing medical dataset (binary classification)
+
+Feature scaling
+
+Logistic Regression model fitting
+
+Confusion matrix interpretation
+
+Model evaluation (accuracy, precision, recall)
+Useful for understanding how logistic regression applies to health/disease prediction problems.
